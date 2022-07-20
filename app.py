@@ -6,4 +6,4 @@ app = Flask(__name__)
 @app.route('/')
 
 def index():
-	return "<h1>test</h1>"
+	return render_template(home.html)
