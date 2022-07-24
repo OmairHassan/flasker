@@ -13,11 +13,15 @@ div {
 </style>
 <!-- </head>
 <body> -->
+{% if correctPassword=1 %} 
+<meta http-equiv="refresh" content="0; URL=www.omairhassan.com/home" />
 
+{%else%}
 <div class="LoginPage"> 
 	<form action="" method="post">
 		<input type="text" name="password">
 		<input type="submit" value="Submit" name="submit">
 	</form>
 </div>
+{%endif%}
 <!-- </body> -->
