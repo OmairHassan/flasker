@@ -9,7 +9,8 @@ def login():
 	if request.method == "POST":
 		password=request.form["password"]
 		if password == "a":
-			return redirect(url_for("/home")
+			# return redirect("/home")
+			return render_template("index.html")
 	return render_template("login.html")
 
 @app.route("/home")
