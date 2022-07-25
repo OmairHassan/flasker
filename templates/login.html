@@ -1,25 +1,48 @@
 <!-- <link rel="stylesheet" href="login.css"> -->
 <style>
-div {
-	/*display: table;*/
+/*div {
 	background-color: lightgrey;
-	/*width: 300px;*/
 	width: 15%;
 	height: 20%;
 	border: 15px solid green;
 	padding: 50px;
 	margin: 0 auto;
-	/*vertical-align: middle;*/
+}*/
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /* Whatever width you want */
 }
 </style>
-<!-- </head>
-<body> -->
-<!-- <div class="LoginPage">  -->
-<div> 
+<!-- <div> 
 	<form action="" method="post">
 		<input type="text" name="password">
 		<br>
 		<input type="submit" value="Submit" name="submit">
 	</form>
-</div>
-<!-- </body> -->
+</div> -->
+
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+    	<form action="" method="post">
+			<input type="text" name="password">
+			<br>
+			<input type="submit" value="Submit" name="submit">
+		</form>
