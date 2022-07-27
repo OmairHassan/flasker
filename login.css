@@ -20,6 +20,8 @@
     border: 1px solid #ff7f50;
     outline: none;
     background: #d3d3d3;
+    height: 50px;
+    font-size: 20pt;
 }
 
 #button {
