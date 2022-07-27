@@ -1,15 +1,35 @@
-/*.LoginPage{ 
+.div1 {
+    background-color: lightgrey;
     width: 300px;
-    padding: 10px;
+    height: 400px;
+    padding: 50px;
+    margin: auto;
     margin-top: 200px;
-    margin: 10px 10px 10px 10px;
-    text-align: left;
-    border-radius: 8px;
-    float: left;
-    color: #000000;
-    background-color: red;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-top: 50vh;
+    border-style: solid;
+    border-width: thin;
+    border-color: coral;
 }
-*/
+
+#textbox {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 300px;
+    border: 1px solid #ff7f50;
+    outline: none;
+    background: #d3d3d3;
+}
+
+#button {
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: #FF7F50;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
